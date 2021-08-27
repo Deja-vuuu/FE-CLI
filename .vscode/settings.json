@@ -1,9 +1,12 @@
 {
   "workbench.colorCustomizations": {
     "activityBar.background": "#830572",
-    "titleBar.activeBackground": "#47861d",
-    "titleBar.activeForeground": "#c27012"
+    "titleBar.activeBackground": "#e8eee4",
+    "titleBar.activeForeground": "#c21212"
   },
   "editor.snippetSuggestions": "bottom",
-  "editor.suggest.snippetsPreventQuickSuggestions": false
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
 }

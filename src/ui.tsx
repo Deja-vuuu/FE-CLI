@@ -47,7 +47,7 @@ const App = () => {
 	const items = [
 		{
 			label: 'First',
-			value: 'first'
+			value: 'first1'
 		},
 		{
 			label: 'Second',
@@ -64,7 +64,7 @@ const App = () => {
 			{/* <Gradient name="rainbow">
 				<BigText text="POP-MART" />
 			</Gradient> */}
-			<SelectInput items={items} onSelect={handleSelect} />
+			{/* <SelectInput items={items} onSelect={handleSelect} /> */}
 
 			<Text>
 				{/* <Box marginRight={1}>
@@ -82,7 +82,7 @@ const App = () => {
 				</Text> */}
 				{/* {' Loading'} */}
 			</Text>
-
+			<Text color="#ffffff">I am white</Text>
 			{/* <Text color="green">I am green</Text>
 			<Text color="black" backgroundColor="white">
 				I am black on white

@@ -23,13 +23,9 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from) {
         to[j] = from[i];
     return to;
 };
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 exports.__esModule = true;
 var react_1 = __importStar(require("react"));
 var ink_1 = require("ink");
-var ink_select_input_1 = __importDefault(require("ink-select-input"));
 var App = function () {
     var _a = react_1.useState([]), tests = _a[0], setTests = _a[1];
     var write = ink_1.useStdout().write;
@@ -64,7 +60,7 @@ var App = function () {
     var items = [
         {
             label: 'First',
-            value: 'first'
+            value: 'first1'
         },
         {
             label: 'Second',
@@ -76,7 +72,7 @@ var App = function () {
         }
     ];
     return (react_1["default"].createElement(react_1["default"].Fragment, null,
-        react_1["default"].createElement(ink_select_input_1["default"], { items: items, onSelect: handleSelect }),
-        react_1["default"].createElement(ink_1.Text, null)));
+        react_1["default"].createElement(ink_1.Text, null),
+        react_1["default"].createElement(ink_1.Text, { color: "#ffffff" }, "I am white")));
 };
 exports["default"] = App;
