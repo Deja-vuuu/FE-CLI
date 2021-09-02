@@ -1,6 +1,6 @@
 {
 	"name": "pop",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"license": "MIT",
 	"bin": "dist/cli.js",
 	"engines": {
@@ -10,6 +10,7 @@
 		"build": "tsc -w",
 		"start": "npm run build && dist/cli.js",
 		"pretest": "npm run build",
+		"release": "standard-version",
 		"test": "xo && ava"
 	},
 	"files": [
